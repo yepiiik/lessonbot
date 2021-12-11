@@ -17,3 +17,4 @@ async def on_startup(dispatcher):
 def start_bot():
     executor.start_polling(dp, on_startup=on_startup)
 
+
